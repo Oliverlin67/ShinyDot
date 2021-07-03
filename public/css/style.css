@@ -1,0 +1,188 @@
+body{
+    transition: background-color .5s;
+    margin-left:30px;
+    opacity:0.2;
+}
+
+a{
+    color: rgb(77, 171, 255);
+}
+.content{
+    margin-top:60px;
+}
+
+.topbar {
+    height: 48px;
+    width: 100%;
+    background: rgb(212, 255, 251);
+    overflow: hidden;
+}
+
+.topbar .r {
+    padding-right: 4px;
+    height: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.topbar .b1 {
+    height: 100%;
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 0px 0px 16px;
+}
+
+.topbar .b2 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.topbar .menu-btn {
+    margin-right: 16px;
+    fill: rgb(225, 225, 225);
+    stroke: none;
+    transition: fill 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    object-fit: cover;
+    display: inline-block;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.topbar .b2 .item {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    height: 100%;
+    pointer-events: all;
+    opacity: 1;
+    padding: 0px 12px;
+}
+
+.topbar .logo {
+    height: 100%;
+    padding: 10px 0px;
+    display: block;
+}
+.topbar .logo img{
+    display: block;
+    height: 100%;
+}
+
+.postList .post{
+    color:black;
+    margin: 0px 16px;
+    display: block;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 16px 0px;
+    cursor: pointer;
+}
+
+.postList .post p{
+    color: #909ca6;
+    font-size:14px;
+    margin:0px;
+}
+
+.postList .postcontent{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #6c757d;
+}
+
+.postList .postcontent small{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.postList .post h4{
+    color:black;
+    margin:5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.boardBlock{
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 44px;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 2px 4px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.boardBlock p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px 3px;
+    margin:0px 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.boardBlock .imgBlock{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.userBlock{
+    margin: 14px 0px 12px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.replyList{
+    background:rgb(245, 245, 245);
+    padding:10px 12px;
+    padding-bottom:50px;
+}
+.replyBlock{
+    color: rgba(0, 0, 0, 0.75);
+    margin: 8px 5px;
+}
+
+.replyBlock h6{
+    font-size: 16px;
+}
+.replyBlock p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d4fffb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00b0a0;
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

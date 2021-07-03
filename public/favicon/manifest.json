@@ -1,0 +1,24 @@
+{
+    "short_name": "ShinyDot",
+    "name": "ShinyDot Forum",
+    "icons": [
+        {
+            "src": "https://forum.coyu.cc/favicon/android-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://forum.coyu.cc/favicon/android-icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "lang": "zh-Hant-TW",
+    "description": "歡迎來到ShinyDot論壇: )",
+    "start_url": "/b/all",
+    "background_color": "#d4fffb",
+    "orientation": "portrait",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#d4fffb"
+}

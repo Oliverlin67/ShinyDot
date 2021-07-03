@@ -1,0 +1,9 @@
+{
+    "require": {
+        "league/oauth2-instagram": "^3.0",
+        "stil/gd-text": "^1.1",
+        "mailgun/mailgun-php": "^2.8",
+        "kriswallsmith/buzz": "^0.16.1",
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
