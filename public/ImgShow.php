@@ -1,6 +1,6 @@
 <?
-include_once __DIR__."../config/sql.php";
-include_once __DIR__."../vendor/autoload.php";
+include_once __DIR__."/../config/sql.php";
+include_once __DIR__."/../vendor/autoload.php";
 
 use GDText\Box;
 use GDText\Color;
@@ -9,20 +9,20 @@ $filename = $_GET["file"];
 
 if($_GET["file"] != null){
     $type = end(explode('.', $filename));
-    if(file_exists(__DIR__."../img/upload/{$filename}")){
-        list($w,$h) = getimagesize(__DIR__."../img/upload/{$filename}");
+    if(file_exists(__DIR__."/../img/upload/{$filename}")){
+        list($w,$h) = getimagesize(__DIR__."/../img/upload/{$filename}");
         switch($type){
             case "png":
-                $bg = imagecreatefrompng(__DIR__."../img/upload/{$filename}");
+                $bg = imagecreatefrompng(__DIR__."/../img/upload/{$filename}");
                 break;
             case "jpg":
-                $bg = imagecreatefromjpeg(__DIR__."../img/upload/{$filename}");
+                $bg = imagecreatefromjpeg(__DIR__."/../img/upload/{$filename}");
                 break;
             case "jpeg":
-                $bg = imagecreatefromjpeg(__DIR__."../img/upload/{$filename}");
+                $bg = imagecreatefromjpeg(__DIR__."/../img/upload/{$filename}");
                 break;
             case "gif":
-                $bg = imagecreatefromgif(__DIR__."../img/upload/{$filename}");
+                $bg = imagecreatefromgif(__DIR__."/../img/upload/{$filename}");
                 break;
         }
         
@@ -30,7 +30,7 @@ if($_GET["file"] != null){
         imagecopy($im,$bg,0,0,0,0,$w,$h);
         
         $box = new Box($im);
-        $box->setFontFace(__DIR__."../config/NotoSanstc.ttf");
+        $box->setFontFace(__DIR__."/../config/NotoSerifCJKtc-SemiBold.ttf");
         $box->setFontSize(40);
         $box->setFontColor(new Color(255, 255, 255,300));
         $box->setBox(0, 0, $w, $h+300);
@@ -41,7 +41,7 @@ if($_GET["file"] != null){
         $backgroundColor = imagecolorallocate($im, 212, 255, 251);
         imagefill($im, 0, 0, $backgroundColor);
         $box = new Box($im);
-        $box->setFontFace(__DIR__."../config/NotoSanstc.ttf");
+        $box->setFontFace(__DIR__."/../config/NotoSerifCJKtc-SemiBold.ttf");
         $box->setFontColor(new Color(212, 255, 251));
         $box->setFontSize(30);
         $box->setStrokeColor(new Color(0, 0, 0));
@@ -55,7 +55,7 @@ if($_GET["file"] != null){
     $backgroundColor = imagecolorallocate($im, 212, 255, 251);
     imagefill($im, 0, 0, $backgroundColor);
     $box = new Box($im);
-    $box->setFontFace(__DIR__."../config/NotoSanstc.ttf");
+    $box->setFontFace(__DIR__."/../config/NotoSerifCJKtc-SemiBold.ttf");
     $box->setFontColor(new Color(212, 255, 251));
     $box->setFontSize(30);
     $box->setStrokeColor(new Color(0, 0, 0));
