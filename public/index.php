@@ -196,9 +196,11 @@ switch($url[1]){
         header("Location: ./b");
 }
 
+echo $page;
+/*
 //include_once (__DIR__."../config/$page.php");
 if($url[1] != "action"){
     include_once (__DIR__.'../config/layout/layout.php');
     include_once (__DIR__.'../config/layout/topbar.php');
 }
-
+*/
