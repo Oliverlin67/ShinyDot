@@ -12,7 +12,6 @@ $url[1] = str_replace("index.php?","",$url[1]);
 
 switch($url[1]){
     case "admin":
-        /*
         if($conn->query("SELECT * FROM `account` WHERE `user_name` = '{$user_info['user_name']}' AND `user_group` = 'admin'")->rowCount() != 0){
             switch($url[2]){
                 case "userList":
@@ -30,7 +29,6 @@ switch($url[1]){
         }else{
             header("Location: https://forum.coyu.cc/b");
         }
-        */
         break;
     case "passwordReset":
         //密碼重設
