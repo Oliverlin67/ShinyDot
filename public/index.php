@@ -196,8 +196,8 @@ switch($url[1]){
         header("Location: ./b");
 }
 
-include_once (__DIR__."/../config/$page.php");
+include_once (__DIR__."/../config/$page.php") or die('view error');
 if($url[1] != "action"){
-    include_once (__DIR__.'/../config/layout/layout.php');
-    include_once (__DIR__.'/../config/layout/topbar.php');
+    include_once (__DIR__.'/../config/layout/layout.php') or die('layout master error');
+    include_once (__DIR__.'/../config/layout/topbar.php') or die('layout topbar error');
 }
