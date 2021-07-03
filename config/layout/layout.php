@@ -1,5 +1,5 @@
 <?
-$html = file_get_contents(__DIR__.'../config/layout/app.html');
+$html = file_get_contents(__DIR__.'/app.html');
 $forum_name = $conn->query("SELECT * FROM `setting` WHERE `name` = 'forum_name'")->fetch(PDO::FETCH_ASSOC)["value"];
 $gets = $conn->query("SELECT * FROM `setting` ORDER BY `setting`.`id` DESC");
 foreach ($gets as $row) {

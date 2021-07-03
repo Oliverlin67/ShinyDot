@@ -3,7 +3,7 @@
 Controller
 */
 session_start();
-//include_once __DIR__."../config/sql.php";
+include_once __DIR__."/../config/sql.php";
 
 $user_info = json_decode($_SESSION["user"],JSON_UNESCAPED_UNICODE);
 
@@ -198,6 +198,6 @@ switch($url[1]){
 
 include_once (__DIR__."/../config/$page.php");
 if($url[1] != "action"){
-    include_once (__DIR__.'/../config/layout/layout.php') or die('layout master error');
-    include_once (__DIR__.'/../config/layout/topbar.php') or die('layout topbar error');
+    include_once (__DIR__.'/../config/layout/layout.php');
+    include_once (__DIR__.'/../config/layout/topbar.php');
 }
