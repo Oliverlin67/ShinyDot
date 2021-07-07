@@ -42,7 +42,7 @@ SET NAMES UTF8MB4
 #### Import sql file
 
 ```
-source [path to shinydot.sql]
+source [path to shiny_dot.sql]
 ```
 
 ### Finish✌
