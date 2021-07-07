@@ -1,7 +1,13 @@
 <p align="center">
     <h1 align="center">ShinyDot FORUM</h1>
-    <p  align="center">A simple forum system built with PHP</p>
+    <p align="center">A simple forum system built with PHP</p>
+    <p align="center"><img src="https://img.shields.io/badge/php-^5.6-blue"/></p>
 </p>
+[![GitHub issues](https://img.shields.io/github/issues/Oliverlin67/ShinyDot)](https://github.com/Oliverlin67/ShinyDot/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Oliverlin67/ShinyDot)](https://github.com/Oliverlin67/ShinyDot/network)
+[![GitHub stars](https://img.shields.io/github/stars/Oliverlin67/ShinyDot)](https://github.com/Oliverlin67/ShinyDot/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Oliverlin67/ShinyDot)](https://github.com/Oliverlin67/ShinyDot/blob/master/LICENSE)
+
 
 ## Installation
 
