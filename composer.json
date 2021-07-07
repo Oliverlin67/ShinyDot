@@ -4,6 +4,6 @@
         "stil/gd-text": "^1.1",
         "mailgun/mailgun-php": "^2.8",
         "kriswallsmith/buzz": "^0.16.1",
-        "phpmailer/phpmailer": "^6.4"
+        "phpmailer/phpmailer": "^6.5"
     }
 }
