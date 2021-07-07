@@ -45,6 +45,6 @@ SET NAMES UTF8MB4
 source [path to shinydot.sql]
 ```
 
-### Finsh
+### Finish✌
 
 <small>Please remember to setup virtual host if you need(DocumentRoot value should be "public")</small>
