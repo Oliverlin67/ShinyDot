@@ -1,7 +1,7 @@
 <p align="center">
     <h1 align="center">ShinyDot FORUM</h1>
+    <p>A simple forum system built with PHP</p>
 </p>
-A simple forum system built with PHP
 
 ## Installation
 
