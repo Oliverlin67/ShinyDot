@@ -5,7 +5,6 @@
         <img src="https://img.shields.io/badge/php-^5.6-blue"/>
         <a href="https://github.com/Oliverlin67/ShinyDot/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Oliverlin67/ShinyDot"></a>
         <a href="https://github.com/Oliverlin67/ShinyDot/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Oliverlin67/ShinyDot"></a>
-        <a href="https://github.com/Oliverlin67/ShinyDot/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Oliverlin67/ShinyDot"></a>
         <a href="https://github.com/Oliverlin67/ShinyDot/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Oliverlin67/ShinyDot"></a>
     </div>
 </p>
