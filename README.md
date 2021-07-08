@@ -29,24 +29,24 @@ git clone https://github.com/Oliverlin67/ShinyDot.git
 
 ### Setup MySQL Database
 
-#### Login to MySQL
+Login to MySQL
 ```
 mysql -u root -p
 ```
 
-#### Create a new Database
+Create a new Database
 
 ```
 CREATE DATABASE `shiny_dot` && USE `shiny_dot`
 ```
 
-#### Set Character Encoding
+Set Character Encoding
 
 ```
 SET NAMES UTF8MB4
 ```
 
-#### Import sql file
+Import sql file
 
 ```
 source [path to shiny_dot.sql]
@@ -57,6 +57,10 @@ source [path to shiny_dot.sql]
 ```
 composer install
 ```
+### Replace config/sql.php
+
+Replace the value of mysql username,host,password,timezone
+
 
 ### Finish✌
 
