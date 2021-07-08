@@ -52,6 +52,12 @@ SET NAMES UTF8MB4
 source [path to shiny_dot.sql]
 ```
 
+### Install packages
+
+```
+composer install
+```
+
 ### Finish✌
 
 <small>Please remember to setup virtual host if you need(DocumentRoot value should be "public")</small>
