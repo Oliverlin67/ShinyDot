@@ -25,7 +25,7 @@ SET time_zone = "+08:00";
 
 CREATE TABLE `account` (
   `id` int NOT NULL,
-  `instagram_same` tinyint(1) NOT NULL,
+  `instagram_name` tinyint(1) NOT NULL,
   `user_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   `user_pwd` varchar(800) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
   `user_group` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
